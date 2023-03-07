@@ -1,7 +1,10 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class jjii {
+public class Calculator {
+
+
+
+    //test
     public static void main(String[] args) {
         System.out.println("_______________________SIMPLE CALCULATOR_____________________ ");
 
