@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sub {
+public class Diff_of_product_and_sum_of_number{
     public static void main(String[] args) {
 
         //This program is from leetcode
