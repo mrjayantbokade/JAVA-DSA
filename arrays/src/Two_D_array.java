@@ -46,22 +46,32 @@ public class Two_D_array {
 //            }
 //            System.out.println();
 //        }
+//
+//
+//        Scanner input = new Scanner(System.in);
+//        int arr3 [] [] = new int[3][4];
+//
+//        for (int row=0; row<arr3.length; row++){
+//            for (int col=0; col < arr3[row].length; col++){
+//
+//                 arr3[row][col] = input.nextInt();
+//
+//            }
+//            System.out.println("hello");
+//        }
+//
+//        for (int row=0; row<arr3.length; row++){
+//            System.out.println(Arrays.toString(arr3[row]));
+//        }
 
 
-        Scanner input = new Scanner(System.in);
-        int arr3 [] [] = new int[3][4];
+        // if you want to print particular element in a 2d array then
 
-        for (int row=0; row<arr3.length; row++){
-            for (int col=0; col < arr3[row].length; col++){
+        int arr5[][] = {
+                {1, 2, 3},{4, 5, 6},{7, 8, 9}
+        };
 
-                 arr3[row][col] = input.nextInt();
-
-            }
-            System.out.println("hello");
-        }
-
-        for (int row=0; row<arr3.length; row++){
-            System.out.println(Arrays.toString(arr3[row]));
-        }
+        // for accessing particular element in a 2d array
+        System.out.println(arr5[0][1]); // 2
     }
 }
