@@ -17,6 +17,10 @@ public class Arraylistt {
         }
         //list.set(1,23);
 
-        System.out.println(list);
+//        System.out.println(list);
+        //or
+        for (int i=0; i<10; i++){
+            System.out.print(list.get(i)+" ");
+        }
     }
 }
