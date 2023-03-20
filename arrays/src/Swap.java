@@ -33,9 +33,16 @@ public class Swap {
 //        arr[b] = temp;
 
 
+        /*printing array
+           using enhanced for loop*/
+
        for (int num: arr){
             System.out.print(num+" ");
         }
+
+       //alternate method to print array
+
+        System.out.println(Arrays.toString(arr));
 
 
 

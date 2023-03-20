@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Multidimensional_ArrayList {
@@ -30,9 +31,9 @@ public class Multidimensional_ArrayList {
 
 
         //printing the elements in arraylist
-//        for (int i=0; i<3; i++) {
-//            System.out.println(list.get(i));
-//        }
+        for (int i=0; i<3; i++) {
+            System.out.println(list.get(i));
+        }
 
 
 
