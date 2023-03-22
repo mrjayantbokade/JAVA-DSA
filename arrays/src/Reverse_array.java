@@ -4,16 +4,30 @@ public class Reverse_array {
         int arr[] = {1, 2, 3, 4, 5};
 
 
-        for (int i =0; i < args.length-1; i++){
+//        System.out.println(arr.length);
+        int start = 0;
+        int end = arr.length-1;
+        for (int i=0; i<=arr.length/2; i++){
 
-
-            int temp = arr[i];
-            arr[i] = arr[arr.length-1];
-            arr[arr.length-1 ] = temp;
+            reverse(arr, start, end);
+            start++;
+            end--;
         }
 
-        for(int num:arr){
-            System.out.println(num);
+
+        for (int num: arr){
+            System.out.print(num + " ");
         }
+
+
+
+
+    }
+
+    public static void reverse(int[] arr, int index1, int index2){
+
+        int temp = arr[index1];
+        arr[index1] = arr[index2];
+        arr[index2] = temp;
     }
 }
