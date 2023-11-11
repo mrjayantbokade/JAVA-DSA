@@ -4,6 +4,7 @@ public class Conditional {
     public static void main(String args[]){
         System.out.println("if salary is more than 20k then bonus 2k otherwise 1k");
 
+        System.out.println("hello");
         //conditionals statements
         int sal = 23000;
 
