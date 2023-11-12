@@ -9,7 +9,7 @@ public class Num {
         }
 
         System.out.println(n);
-        countdown(n+1);
+         countdown(n+1);
     }
     public static void main(String[] args) {
         countdown(1);
