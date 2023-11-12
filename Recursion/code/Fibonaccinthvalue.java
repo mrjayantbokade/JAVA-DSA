@@ -1,6 +1,6 @@
 package code;
 
-public class FibonacciSeries {
+public class Fibonaccinthvalue {
 
 
     public static int fibo(int n){
