@@ -8,7 +8,7 @@ public class Bubblesort {
         int size = arr.length;
 
         for (int i=0; i<size; i++){
-            for (int j=i+1; j<size; j++){
+            for (int j=i+1; j<size-i; j++){
                 if(arr[i] > arr[j]){
                     int temp = arr[i];
                     arr[i] = arr[j];
