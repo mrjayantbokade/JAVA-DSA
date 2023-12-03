@@ -33,5 +33,7 @@ public class Factorsofnumber {
         factor1(num);
 
 
+
+
     }
 }

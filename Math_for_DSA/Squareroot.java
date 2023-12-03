@@ -1,24 +1,23 @@
 public class Squareroot {
 
 
-
-    public static double sroot(int n, int p){
+    public static double sroot(int n, int p) {
 
         int start = 0;
         int end = n;
 
         double root = 0.0;
 
-        while (end >= start){
+        while (end >= start) {
             int mid = start + (end - start) / 2;
 
-            if (mid * mid == n){
+            if (mid * mid == n) {
                 return mid;
             }
 
-            if (mid * mid > n){
+            if (mid * mid > n) {
                 end = mid - 1;
-            }else {
+            } else {
                 start = mid + 1;
             }
 
@@ -26,8 +25,8 @@ public class Squareroot {
 
         double increment = 0.1;
 
-        for (int i=0; i<p; i++){
-            while (root*root < n) {
+        for (int i = 0; i < p; i++) {
+            while (root * root < n) {
                 root += increment;
             }
 
@@ -37,13 +36,8 @@ public class Squareroot {
         }
 
 
-
-
-
-
-      return root;
+        return root;
     }
-
 
 
     public static void main(String[] args) {
@@ -53,7 +47,7 @@ public class Squareroot {
         int p = 3;
 
         double res = sroot(n, p);
-        System.out.printf("%.4f",res);
+        System.out.printf("%.4f", res);
 
     }
 }
