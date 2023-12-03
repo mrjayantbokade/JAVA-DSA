@@ -6,6 +6,9 @@ public class Squareroot {
 
         int start = 0;
         int end = n;
+
+        double root = 0.0;
+
         while (end >= start){
             int mid = start + (end - start) / 2;
 
@@ -21,8 +24,24 @@ public class Squareroot {
 
         }
 
+        double increment = 0.1;
 
-      return n;
+        for (int i=0; i<p; i++){
+            while (root*root < n) {
+                root += increment;
+            }
+
+            root -= increment;
+            increment /= 10;
+
+        }
+
+
+
+
+
+
+      return root;
     }
 
 
@@ -30,11 +49,11 @@ public class Squareroot {
     public static void main(String[] args) {
 
 
-        int n = 36;
+        int n = 40;
         int p = 3;
 
         double res = sroot(n, p);
-        System.out.println(res);
+        System.out.printf("%.4f",res);
 
     }
 }
