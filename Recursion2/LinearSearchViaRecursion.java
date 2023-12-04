@@ -17,8 +17,8 @@ public class LinearSearchViaRecursion {
             listoftargetindex.add(index);
         }
 
-         alltarget(arr,listoftargetindex, target, index+1);
-        return listoftargetindex;
+
+        return alltarget(arr,listoftargetindex, target, index+1);
     }
     static ArrayList<Integer> list  = new ArrayList<>();
 
@@ -63,7 +63,7 @@ public class LinearSearchViaRecursion {
 
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 2, 4, 2, 33};
+        int[] arr = {22, 33, 44, 33, 33, 33, 1, 2, 3, 4, 5, 6, 2, 4, 2, 33};
         int target =33;
         ArrayList<Integer> listoftargetindex = new ArrayList<>();
 //        System.out.println(linearSearch(arr, target, 0));
