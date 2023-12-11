@@ -5,6 +5,30 @@ import java.util.Arrays;
 public class Selectionsort {
 
     //selection sort is finding the largest element and placing into the last POSITION
+
+
+
+    public static void usingRecursion(int[] arr, int row, int col, int lastIndex){   //when calling function pass last index as arr.length-i-1;
+
+
+        if (row == 0){
+
+            return;
+        }
+
+        if (col < row){
+
+           int max =  getmax(arr, 0, lastIndex);
+            swap(arr, max, lastIndex);
+
+            usingRecursion(arr,row, col+1, lastIndex);
+
+        }else {
+            usingRecursion(arr, row-1,0, lastIndex-1);
+        }
+
+
+    }
     public static void usingloops(int[] arr){
 
 
@@ -37,12 +61,26 @@ public class Selectionsort {
     }
 
 
+
+
+
+    public static void selectionUsingRecursion(int[] arr){
+        
+    }
+
+
     public static void main(String[] args) {
-        int[] arr = {4, 3, 2, 1};
+//        int[] arr = {4, 3, 2, 1};
+        int[] arr = {-21,33, 545324, 33 ,0, 3, 2, 1};
+
+//        System.out.println(Arrays.toString(arr));
+//
+////        usingloops(arr);
+//        System.out.println(Arrays.toString(arr));
+
 
         System.out.println(Arrays.toString(arr));
-
-        usingloops(arr);
+        usingRecursion(arr, arr.length-1, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }
