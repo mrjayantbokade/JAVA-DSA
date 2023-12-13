@@ -1,3 +1,5 @@
+package Sorting;
+
 import java.util.Arrays;
 
 public class BubbleSortUsingRecursion {
@@ -18,7 +20,7 @@ public class BubbleSortUsingRecursion {
         }
 
 
-        if (j <  arr.length-1){
+        if (j <  arr.length){
 
             if (arr[j] < arr[j-1]){
                 int temp = arr[j-1];
@@ -31,11 +33,7 @@ public class BubbleSortUsingRecursion {
 
         }else {
 
-            if (arr[j] < arr[j-1]){
-                int temp = arr[j-1];
-                arr[j-1] = arr[j];
-                arr[j] = temp;
-            }
+
 
 
             bubblysort(arr, i+1, 1);
