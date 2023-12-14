@@ -31,7 +31,7 @@ public class DoRotatedBinarySearch {
 
         int [] arr = {4,5,6,7,0,1,2};
         System.out.println(RBS(arr, 0, 0, arr.length-1));
-        System.out.println(RBSusingloop(arr, 4));
+//        System.out.println(RBS(arr, 4));
     }
 
 }
