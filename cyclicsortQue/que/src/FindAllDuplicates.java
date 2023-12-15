@@ -41,6 +41,8 @@ public class FindAllDuplicates {
 //        int[] arr = {1, 1, 2};
         int[] arr = {};
 
+
+
         List<Integer> anslist = new ArrayList<>();
 
         anslist = findDuplicates(arr);
