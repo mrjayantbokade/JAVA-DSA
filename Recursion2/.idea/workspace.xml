@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6525db9-6906-4739-aed4-99e83f685744" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recursion2/BubbleSortUsingRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recursion2/Sorting/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion2/Sorting/Test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ZGFgpQDJsLgzHX2UXRUgr0e4Dm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayIsSorted.executor": "Run",
+    "Application.Bubble.executor": "Run",
+    "Application.BubbleSortUsingRecursion.executor": "Run",
+    "Application.Check.executor": "Debug",
+    "Application.Countzerosinmatrix.executor": "Run",
+    "Application.DoRotatedBinarySearch.executor": "Run",
+    "Application.Fibo (1).executor": "Run",
+    "Application.Fibo (2).executor": "Run",
+    "Application.Fibo (3).executor": "Run",
+    "Application.Fibo.executor": "Run",
+    "Application.Halfpyramid.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.Numprinting.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.Selectionsort.executor": "Run",
+    "Application.Sorting.BubbleSortUsingRecursion.executor": "Run",
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JAYANT BOKADE/Desktop/DSA/Recursion2/Sorting/Test.java",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "two.files.diff.last.used.file": "C:/Users/JAYANT BOKADE/Desktop/DSA/Recursion2/Sorting/Test.java"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\JAYANT~1\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="6c4d50c4-55d8-429f-bb51-89892ef3eb68" reportId="Recursion2/qodana/2023-12-10" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Sorting.BubbleSortUsingRecursion">
+    <configuration name="BubbleSortUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSortUsingRecursion" />
+      <module name="Recursion2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort" />
+      <module name="Recursion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
+      <module name="Recursion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selectionsort" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selectionsort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorting.BubbleSortUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSortUsingRecursion" />
+      <module name="Recursion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.Test" />
+      <module name="Recursion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sorting.BubbleSortUsingRecursion" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BubbleSortUsingRecursion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-657b72ed" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6525db9-6906-4739-aed4-99e83f685744" name="Changes" comment="" />
+      <created>1702040622619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702040622619</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Sorting/Check.java</url>
+          <line>17</line>
+          <properties class="Sorting.Check" method="mergesort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Recursion2$Selectionsort.ic" NAME="Selectionsort Coverage Results" MODIFIED="1702273023827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
