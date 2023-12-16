@@ -1,4 +1,4 @@
-public class RemoveCharacter {
+public class RemoveOrSkip {
 
 
 
@@ -66,17 +66,34 @@ public class RemoveCharacter {
         return remove(word, newString, index+1);
     }
 
+    public static String skipApple(String word){
+
+        if (word.isEmpty()){
+            return "";
+        }
+
+
+        if (word.startsWith("apple")){
+            return skipApple(word.substring(5));
+        }else {
+            return word.charAt(0) + skipApple(word.substring(1));
+        }
+    }
     public static void main(String[] args) {
 
         String name = "jayant";
         String ans = "";
+        String apple = "helloapplegg";
 
-        System.out.println(remove(name, ans, 0));
-        System.out.println(remove2(name, 0));
-        System.out.println(kunalsWay(name));
+//        System.out.println(remove(name, ans, 0));
+//        System.out.println(remove2(name, 0));
+//        System.out.println(kunalsWay(name));
+//        System.out.println(skipApple(apple));
+        String outcome = skipApple(apple);
 
+        System.out.println("outcome = " + outcome);
 
-        kunalsWay2(name,"");
+//        kunalsWay2(name,"");
 
 
     }
