@@ -1,18 +1,35 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class FindAllSubsequences {
 
-    public static void subseq(String unprocessed, String processed){
+
+    //passing arraylist in the arguments if easy
+    //bit more challenging is creating and returning the arrayslist
+    //inside the body of function
+    public static ArrayList<String> subseq(String unprocessed, String processed){
         if (unprocessed.isEmpty()){
-            System.out.println(processed);
-            return;
+            ArrayList<String> list = new ArrayList<>();
+
+            list.add(processed);
+            return list;
         }
 
-        subseq(unprocessed.substring(1),  processed+unprocessed.charAt(0));
+        ArrayList<String> left = new ArrayList<>();
+        ArrayList<String> right = new ArrayList<>();
+        left = subseq(unprocessed.substring(1),  processed+unprocessed.charAt(0));
 
-        subseq(unprocessed.substring(1), processed);
+        right = subseq(unprocessed.substring(1), processed);
 
+         left.addAll(right);
+         return left;
     }
 
     public static void main(String[] args) {
-        subseq("abc", "");
+        ArrayList<String> ans = new ArrayList<>();
+        ans = subseq("abc", "");
+        System.out.println(ans);
     }
 }
+
+
