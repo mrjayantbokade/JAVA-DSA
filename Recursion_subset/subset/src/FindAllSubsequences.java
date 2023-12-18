@@ -21,6 +21,9 @@ public class FindAllSubsequences {
             return list;
         }
         
+        
+        
+
         ArrayList<String> left = subseq(unprocessed.substring(1), processed + unprocessed.charAt(0));
         
         
