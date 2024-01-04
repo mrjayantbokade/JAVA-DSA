@@ -11,7 +11,7 @@ public class LL {
 
 
     public void display(){
-        Node temp = head;
+        Node temp = head; //temp node
 
         System.out.print("head:");
         while (temp != null){
