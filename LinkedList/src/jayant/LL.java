@@ -12,6 +12,59 @@ public class LL {
 
 
 
+    public Node findNode(int value){
+
+        Node temp = head;
+        while (temp != null){
+            if (temp.value == value){
+                System.out.println("Found "+ value);
+                return temp;
+            }
+            temp = temp.next;
+        }
+
+        return null;
+
+    }
+    public void deleteAtIndex(int index){
+
+        if (index <= 1){
+            deleteFirst();
+            return;
+        }
+
+        Node dnode = get(index-1);
+        int val = dnode.next.value;
+        Node nextnode = dnode.next.next;
+        dnode.next = nextnode;
+        size--;
+
+        System.out.println( "Deleted "+val);
+        return ;
+    }
+
+
+
+    public void deleteLastKunal(){
+
+        Node temp = get(size-1);
+        System.out.println(tail.value);
+        tail = temp;
+        temp.next = null;
+        size--;
+
+    }
+    public Node get(int index){
+
+        Node tempnode = head;
+        for (int i = 1; i < index; i++) {
+            tempnode = tempnode.next;
+        }
+
+
+        return tempnode;
+    }
+
     public void deleteLast(){
 
         Node temp = head;
@@ -38,6 +91,7 @@ public class LL {
         if (index > size+1){
             System.out.println("Cannot place at this index");
             System.out.println("Because it is not of that length");
+            return;
         }
 
 
@@ -125,10 +179,75 @@ public class LL {
 
     }
 
-    private class Node{
 
-        private int value;
-        private Node next;
+    public void insertViaRecursion( int index, int value){
+
+        if (index > size+2){
+            return;
+        }
+        if (index == 1){
+            insertFirst(value);
+            return;
+        }
+
+
+        if (head == null){
+            return;
+        }
+
+        Node temp = head;
+        Node prev = getNode(index-1, temp);
+        Node newNode = new Node(value);
+        newNode.next = prev.next;
+        prev.next = newNode;
+
+
+
+
+
+    }
+
+
+    private Node getNode(int index, Node temp) {
+
+        if (index == 1){
+            return temp;
+        }
+
+
+        return getNode(index-1, temp.next);
+    }
+
+    public void createCycle(){
+        Node loopNode = head.next.next.next;
+        tail.next = loopNode;
+    }
+    public void checkCycle() {
+
+        Node slow = head;
+        Node fast = head;
+
+        while (slow.value != fast.value){
+            if (fast.next == null){
+                return;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+
+        if (slow.value == fast.value){
+            System.out.println("True");
+        }else {
+            System.out.println("False");
+        }
+    }
+
+
+    public class Node{
+
+        public int value;
+        public Node next;
 
         public Node(int value){
             this.value = value;
